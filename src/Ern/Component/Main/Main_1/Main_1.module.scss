@@ -1,0 +1,12 @@
+.Main_1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    .Main_child2 {
+        gap: 35px;
+        display: flex;
+        height: auto;
+        width: 800px;
+    }
+}

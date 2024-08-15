@@ -1,0 +1,39 @@
+$progress-bar-color: #00b8d4;
+$background-color: #e0e0e0;
+$border-radius: 5px;
+
+.progress-bar {
+    display: grid;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+
+    .label {
+        margin-bottom: -20px;
+        margin-top: -18px;
+    }
+    .progress-bar-child {
+        display: flex;
+
+
+        .progress {
+            position: relative;
+            width: 100%;
+            background-color: $background-color;
+            border-radius: $border-radius;
+            height: 10px;
+            overflow: hidden;
+
+            .filler {
+                background-color: $progress-bar-color;
+                height: 100%;
+                transition: width 0.5s ease-in-out;
+            }
+        }
+
+        .percentage {
+            padding-left: 10px;
+            min-width: 40px;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Main_4 {
+    background-color: #F8F8F8;
+    display: grid;
+    justify-content: center;
+    min-height: 100vh;
+
+    .Main_4_Child1 {
+        width: 300px;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+
+        button {
+            border: none;
+            background-color: #F8F8F8;
+            cursor: pointer;
+
+            &:focus {
+                color: #00B2A0;
+            }
+        }
+    }
+
+    .Main_4_Child2 {
+        div {
+            img {
+                width: 250px;
+                height: 200px;
+                margin: 5px;
+            }
+
+            .Main_4_Big_Img {
+                width: 400px;
+            }
+        }
+    }
+
+    .Main_4_LastChild {
+        display: flex;
+        justify-content: center;
+
+        button {
+            font-family: "Roboto Condensed", sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0.6000000238418579px;
+            margin-top: 20px;
+            width: 200px;
+            padding: 5px;
+            border-color: #eeeeee;
+            background-color: white;
+            border-style: solid;
+            cursor: pointer;
+        }
+    }
+}
