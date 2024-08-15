@@ -2,9 +2,9 @@ import TextP from '../../../UI/TextP/TextP';
 import H1 from '../../../UI/H1/H1';
 import style from './Main_2.module.scss'
 import ProgressBar from '../../../UI/ProgressBar/ProgressBar';
-import IMG1 from '../../../assets/Group1.png';
-import IMG2 from '../../../assets/Group2.png';
-import IMG3 from '../../../assets/Group3.png';
+import IMG1 from '../../../assets/assetsErn/Group1.png';
+import IMG2 from '../../../assets/assetsErn/Group2.png';
+import IMG3 from '../../../assets/assetsErn/Group3.png';
 
 const Main_2 = () => {
     return (

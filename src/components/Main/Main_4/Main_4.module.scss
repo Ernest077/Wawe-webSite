@@ -6,13 +6,13 @@
     display: grid;
     justify-content: center;
     min-height: 100vh;
-
+    padding: 30px;
     .Main_4_Child1 {
         width: 300px;
         display: flex;
         justify-content: flex-start;
         margin-bottom: 20px;
-
+        gap: 10px;
         button {
             border: none;
             background-color: #F8F8F8;
