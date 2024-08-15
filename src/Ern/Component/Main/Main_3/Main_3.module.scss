@@ -1,0 +1,23 @@
+.Main_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    min-height: 100vh;
+
+    .Main_3_Child1 {
+        height: 500px;
+        width: 500px;
+        display: grid;
+        align-items: center;
+    }
+
+    .Main_3_Child2 {
+        display: grid;
+        align-items: center;
+
+        img {
+            width: 550px;
+        }
+    }
+}
