@@ -1,5 +1,6 @@
 import React from "react";
 import "./Packet.scss";
+import H1 from "../../UI/H1/H1";
 export default function Packet() {
   let Package = [
     {
@@ -26,7 +27,7 @@ export default function Packet() {
   ];
   return (
     <div className="Packet">
-      <h1 className="Packet__Title">ПАКЕТЫ УСЛУГ</h1>
+      <H1 h1={'ПАКЕТЫ УСЛУГ'}/>
       <p className="Packet__Slash">/</p>
       <div className="Packet__Package">
         {Package.map((elem) => (

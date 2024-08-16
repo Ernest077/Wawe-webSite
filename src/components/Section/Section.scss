@@ -1,22 +1,23 @@
 .Section {
-  width: 1550px;
-  height: 1003px;
+  min-height: 100vh;
+  padding: 30px;
   background: #ffffff;
   margin: 5px auto;
 
   &__Img {
-    width: 1200px;
     height: 600px;
     margin: 10px auto;
     margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     img {
-      width: 1200px;
-      height: 600px;
+      width: 900px;
+      height: 500px;
       border-radius: 10px;
     }
   }
   &__Img__Days {
-    width: 1540px;
     height: 296px;
     display: flex;
     justify-content: center;
@@ -41,7 +42,6 @@
     justify-content: center;
     align-items: center;
     gap: 80px;
-    width: 1540px;
     p {
       font-family: Roboto Condensed;
       font-size: 14px;
